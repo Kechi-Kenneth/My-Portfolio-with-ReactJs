@@ -1,0 +1,92 @@
+.my-image{
+  width: 300px;
+  height: 400px;
+  margin-top:2.5rem;
+  border-radius: 3rem;
+}
+
+.hero-img {
+  flex: 1;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction:column;
+}
+
+
+.hero-img > div {
+display: flex;
+
+align-items: flex-end;
+gap: 1rem;
+}
+
+.hero-img > div > img {
+  width: 25rem;
+  transition: all 0.3s ease;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+
+.hero-container::after,
+.hero-container::before
+{
+content: "";
+margin-left:20px;
+width: 25rem;
+height: 25rem;
+border-radius: 29rem;
+background: rgb(35, 35, 35);
+position: absolute;
+z-index: -1;
+}
+
+
+.hero-content {
+  flex: 1;
+  
+}
+
+.hero-content h2 {
+  font-size: 3.3rem;
+  font-weight: 400px;
+  line-height: 5.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-style:oblique;
+  width: 80%;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.tech-icon {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius:0.55rem;
+  border: 1.5px solid gray;
+  
+
+}
+
+.tech-icon img {
+  width: 3rem;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.hero-img > div > img:hover, .tech-icon img:hover {
+  transform: translateY(-0.5rem);
+}
