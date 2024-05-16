@@ -116,7 +116,7 @@ margin: 0 1.5rem;
   }
 }
 
-/* @media (max-width: 769px) {
+ @media (max-width: 740px) {
   .menu-btn {
 display: block;
   }
@@ -124,7 +124,7 @@ display: block;
   .nav-content ul {
     display: none;
   }
-} */
+} 
 
 
 @media (max-width:1325px) {
