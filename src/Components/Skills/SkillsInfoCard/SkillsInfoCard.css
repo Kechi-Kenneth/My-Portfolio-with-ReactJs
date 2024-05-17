@@ -1,0 +1,60 @@
+.skills-info-card {
+
+  min-height: 24rem;
+  border-radius: 1rem;
+  border: 2px solid gray;
+  background: rgb(42, 41, 41);
+  backdrop-filter: blur(1rem);
+
+
+}
+
+.skills-info-card h5 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  background: linear-gradient(180deg,white 0%, rgb(45, 42, 42) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 2px solid rgb(73, 72, 72);
+
+}
+
+.skills-info-content {
+  padding: 2rem;
+
+}
+
+.skill-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.skill-info p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.skill-info .percentage {
+  color: burlywood;
+}
+
+.skill-progress-bg {
+  width: 100%;
+  height: 1rem;
+  background: gray;
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+  overflow: hidden;
+}
+
+.skill-progress {
+  width: 0%;
+  height: 0.7rem;
+  background: linear-gradient(90deg, burlywood -50%, rgb(94, 74, 74) 50%);
+  border-radius: 0.6rem;
+  transition: all 0.4s ease-in-out;
+}

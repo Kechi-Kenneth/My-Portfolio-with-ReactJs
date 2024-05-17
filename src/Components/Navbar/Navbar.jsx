@@ -37,7 +37,7 @@ return (
 
 </li>
 <button className="contact-me" onClick={() =>{}}>
-    Click here
+    Hire Me 
     </button>
 
  </ul>
@@ -48,7 +48,7 @@ return (
   class={"material-symbols-outlined"}
   style={{fontSize: "1.8rem"}}
   >
-    M
+    <img className="menu-icon" src="./src/assets/icons8-menu.gif" alt="" />
     {/* {openMenu ? "close" : "menu"} */}
   </span>
  </button>

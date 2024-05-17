@@ -1,0 +1,38 @@
+.skills-card {
+  border-radius: 1rem;
+  border: 1.5px solid gray;
+  padding: 2.0rem;
+  text-align: center;
+  background: "";
+  backdrop-filter:blur(1rem);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+}
+
+
+.skills-card:hover,
+.skills-card.active {
+  background: linear-gradient(180deg,rgb(74, 70, 70) 0%, rgb(25, 23, 23) 100%);
+}
+
+
+.skills-card span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.skill-icon {
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+ background: black;
+ 
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+}

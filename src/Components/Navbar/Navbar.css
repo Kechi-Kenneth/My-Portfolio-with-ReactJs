@@ -134,3 +134,12 @@ display: block;
 
   }
 }
+
+.menu-icon {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 2rem;
+  margin-left: -2px;
+}
