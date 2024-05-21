@@ -1,0 +1,11 @@
+.experience-container {
+
+  margin: 4rem 0;
+  position: relative;
+}
+
+.experience-container h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
