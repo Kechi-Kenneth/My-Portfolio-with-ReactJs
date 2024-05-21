@@ -14,9 +14,9 @@
     title: "Backend",
     icon: "./src/assets/icons8-tech-30.png",
     skills: [
-      {skill: "Problem-Solving", percentage: "85%"},
-      {skill: "Algorithmn ", percentage: "70%"},
-      {skill: "Attention to detauls", percentage: "85%"},
+      {skill: "NodeJs (In Progress)", percentage: "1%"},
+      {skill: "ExpressJs (In Progress)", percentage: "1%"},
+  
     ],
   },
   {

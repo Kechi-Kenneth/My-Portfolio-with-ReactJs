@@ -48,7 +48,7 @@ return (
   class={"material-symbols-outlined"}
   style={{fontSize: "1.8rem"}}
   >
-    <img className="menu-icon" src="./src/assets/icons8-menu.gif" alt="" />
+    <img className="menu-icon" src="src/assets/menu-symbol-of-three-parallel-lines-svgrepo-com.png" alt="" />
     {/* {openMenu ? "close" : "menu"} */}
   </span>
  </button>

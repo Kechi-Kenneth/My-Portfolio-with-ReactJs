@@ -14,7 +14,7 @@
 
 .skills-card:hover,
 .skills-card.active {
-  background: linear-gradient(180deg,rgb(74, 70, 70) 0%, rgb(25, 23, 23) 100%);
+  background: linear-gradient(180deg,rgb(74, 70, 70) 0%, rgb(0, 0, 0) 100%);
 }
 
 
