@@ -2,7 +2,7 @@
   background: rgb(57, 56, 56);
   border-radius: 1rem;
   border: 1.5px solid gray;
-  padding: 1.5rem;
+  padding: 1.2rem;
   margin: 0 1rem;
 }
 
@@ -10,7 +10,7 @@
 .work-experience-card h5 {
   font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 
 }
 

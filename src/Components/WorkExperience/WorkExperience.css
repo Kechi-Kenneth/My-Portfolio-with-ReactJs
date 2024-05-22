@@ -1,6 +1,6 @@
 .experience-container {
 
-  margin: 4rem 0;
+  margin: 3rem 0;
   position: relative;
 }
 
@@ -8,4 +8,66 @@
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 3rem;
+}
+
+
+.arrow-left,
+.arrow-right {
+ padding: 1.6rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-right: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  border-radius: 0.8rem;
+ 
+  background: rgb(66, 66, 66);
+position: absolute;
+top: 57%;
+z-index: 2;
+cursor: pointer;
+}
+
+@media (max-width:600px) {
+  .arrow-left,
+.arrow-right {
+  padding: 0.6rem;
+  background: black;
+}
+
+
+.arrow-right span img {
+  margin-top: 9.5rem;
+  margin-right: 3rem;
+}
+
+.arrow-left span img {
+  margin-left: 3rem;
+  margin-top: 9.5rem;
+}
+
+}
+
+.arrow-left {
+  margin-left: 0.6rem;
+}
+
+.arrow-left span img,
+.arrow-right span img {
+
+
+  height: 2.7rem;
+  width: 3rem;
+  padding-top: 0.5rem;
+}
+
+.arrow-left {
+  left: -1.4rem;
+
+}
+
+.arrow-right {
+  right: -1.4rem;
 }

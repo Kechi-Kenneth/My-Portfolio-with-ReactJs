@@ -9,12 +9,12 @@ const WorkExperience = () => {
 const sliderRef = useRef();
 
 const settings = {
-  dots: true,
+  dots: false,
   infinite: true,
-  speed: 500,
+  speed: 300,
   slidesToShow: 2,
   slidesToScroll: 1,
-  arrows: true,
+  arrows: false,
   responsive: [{
     breakpoint:760,
     settings: {
@@ -30,6 +30,12 @@ const settings = {
   <h4>Work Experience </h4>
   
   <div className="experience-content">
+    <div className="arrow-right">
+      <span class="material-symbols-outlined"><img src="./src/assets/icons8-right-button-30.png"/></span>
+    </div>
+    <div className="arrow-left">
+    <span class="material-symbols-outlined"><img src="./src/assets/icons8-left-30.png"/></span>
+    </div>
 <Slider Ref={sliderRef} {...settings}>
 {WORK_EXPERIENCE.map((item) => (
   <ExperienceCard key={item.title} details={item} />
