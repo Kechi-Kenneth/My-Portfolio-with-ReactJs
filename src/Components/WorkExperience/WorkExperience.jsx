@@ -25,15 +25,23 @@ const settings = {
 ],
 };
 
+const slideRight = () => {
+  sliderRef.current.slickNext();
+};
+
+const slideLeft = () => {
+  sliderRef.current.slickPrev();
+};
+
   return (
    <section className="experience-container">
   <h4>Work Experience </h4>
   
   <div className="experience-content">
-    <div className="arrow-right">
+    <div className="arrow-right" onClick={slideRight}>
       <span class="material-symbols-outlined"><img src="./src/assets/icons8-right-button-30.png"/></span>
     </div>
-    <div className="arrow-left">
+    <div className="arrow-left" onClick={slideLeft}>
     <span class="material-symbols-outlined"><img src="./src/assets/icons8-left-30.png"/></span>
     </div>
 <Slider Ref={sliderRef} {...settings}>
