@@ -1,0 +1,8 @@
+.footer {
+  font-size: 0.8rem;
+  text-align: center;
+  background: linear-gradient(90deg, rgb(85, 83, 83) 5%, rgb(43, 39, 39) 95%);
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+}
