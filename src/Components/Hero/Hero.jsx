@@ -15,10 +15,10 @@ const Hero = () => {
       <div className="hero-img">
         <div>
           <div className="tech-icon">
-            <img src="src\assets\icons8-react-js-40.png" alt="" />
+            <img src="public\Assets\icons8-react-js-40.png" alt="" />
           </div>
 
-          <img className="my-image" src="\src\assets\kaypluz img.jpg" alt="" />
+          <img className="my-image" src="public\Assets\kaypluz img.jpg" alt="" />
         </div>
 <div> 
 <div className="tech-icon">
