@@ -6,3 +6,10 @@
   margin-top: 1rem;
   margin-bottom: 0.2rem;
 }
+
+
+.footer:hover {
+color: antiquewhite;
+cursor: pointer;
+  background-color: rgb(197, 177, 177);
+}

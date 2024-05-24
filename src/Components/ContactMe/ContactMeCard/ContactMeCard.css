@@ -11,7 +11,7 @@
 }
 
 .contact-details-card:hover {
-
+  color: rgb(104, 102, 101);
   cursor: pointer;
   background: linear-gradient(90deg, rgb(23, 22, 22) 0%, rgb(55, 48, 48) 100%);
 
