@@ -1,8 +1,10 @@
 import React from "react";
 import "./Hero.css";
+import { Element } from "react-scroll";
 
 const Hero = () => {
   return (
+    <Element name="home">
     <section className="hero-container">
       <div className="hero-content">
         <h2>Building Digital Interfaces and Experiences that are seamless</h2>
@@ -37,6 +39,7 @@ const Hero = () => {
 </div>
       </div>
     </section>
+    </Element>
   );
 };
 

@@ -124,6 +124,7 @@ filter: blur(225px);
 @media (max-width:620px) {
   .hero-container {
     flex-direction: column;
+    margin-top: 2rem;
   }
   .my-image {
     height: 8rem;

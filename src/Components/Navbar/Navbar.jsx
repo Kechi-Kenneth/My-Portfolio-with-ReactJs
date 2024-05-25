@@ -19,7 +19,9 @@ const Navbar = () => {
           <img className="nav-logo" src="" alt=""></img>
           <ul>
             <li>
+            <Link to="home" smooth={true} duration={500}>
               <a  className="menu-item">Home</a>
+              </Link>
             </li>
             <li>
             <Link to="skills" smooth={true} duration={500}>
