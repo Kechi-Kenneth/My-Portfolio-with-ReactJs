@@ -6,12 +6,12 @@ import Slider from "react-slick";
 
 
 const WorkExperience = () => {
-const sliderRef = useRef();
+const sliderRef = useRef(false);
 
 const settings = {
-  dots: false,
+  dots: true,
   infinite: true,
-  speed: 300,
+  speed: 500,
   slidesToShow: 2,
   slidesToScroll: 1,
   arrows: false,
@@ -36,7 +36,12 @@ const slideLeft = () => {
   return (
    <section className="experience-container">
   <h4>Work Experience </h4>
-  
+  <Slider ref={sliderRef} {...settings}>
+{WORK_EXPERIENCE.map((item) => (
+  <ExperienceCard key={item.title} details={item} />
+))}
+</Slider>
+
   <div className="experience-content">
     <div className="arrow-right" onClick={slideRight}>
       <span class="material-symbols-outlined"><img src="./public/icons8-right-button-30.png"/></span>
@@ -44,11 +49,7 @@ const slideLeft = () => {
     <div className="arrow-left" onClick={slideLeft}>
     <span class="material-symbols-outlined"><img src="./public/icons8-left-30.png"/></span>
     </div>
-<Slider Ref={sliderRef} {...settings}>
-{WORK_EXPERIENCE.map((item) => (
-  <ExperienceCard key={item.title} details={item} />
-))}
-</Slider>
+
   </div>
    </section>
   )

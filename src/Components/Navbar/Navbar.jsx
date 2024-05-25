@@ -18,7 +18,7 @@ const Navbar = () => {
           <img className="nav-logo" src="" alt=""></img>
           <ul>
             <li>
-              <a className="menu-item">Home</a>
+              <a id="#home" className="menu-item">Home</a>
             </li>
             <li>
               <a className="menu-item">Skills</a>
