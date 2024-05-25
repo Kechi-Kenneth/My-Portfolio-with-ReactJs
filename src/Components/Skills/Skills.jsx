@@ -4,7 +4,7 @@ import "./Skills.css";
 import { SKILLS } from "../../utils/data";
 import SkillCard from "./SkillCard/SkillCard";
 import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard";
-
+import { Element } from "react-scroll";
 
 const Skills = () => {
 
@@ -15,6 +15,7 @@ const handleSelectedSkill = (data) => {
 };
 
   return (
+    <Element name="skills">
     <section className="skills-container">
       <h4> Technical Proficiency </h4>
       <div className="skills-content">
@@ -39,6 +40,7 @@ const handleSelectedSkill = (data) => {
         </div>
       </div>
     </section>
+    </Element>
   );
 };
 

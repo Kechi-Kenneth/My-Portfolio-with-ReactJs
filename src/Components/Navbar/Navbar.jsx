@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./Navbar.css";
 import MobileNav from "../MobileNav/MobileNav";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -18,24 +19,32 @@ const Navbar = () => {
           <img className="nav-logo" src="" alt=""></img>
           <ul>
             <li>
-              <a id="#home" className="menu-item">Home</a>
+              <a  className="menu-item">Home</a>
             </li>
             <li>
+            <Link to="skills" smooth={true} duration={500}>
               <a className="menu-item">Skills</a>
+              </Link>
             </li>
             <li>
               <a className="menu-item">Education</a>
             </li>
             <li>
+            <Link to="work" smooth={true} duration={500}>
               <a className="menu-item">Work Experience</a>
+              </Link>
             </li>
 
             <li>
+            <Link to="contact" smooth={true} duration={500}>
               <a className="menu-item">Contact Me</a>
+              </Link>
             </li>
+            <Link to="contact" smooth={true} duration={500}>
             <button className="contact-me" onClick={() => {}}>
               Hire Me
             </button>
+            </Link>
           </ul>
 
           <button class="menu-btn" onClick={toggleMenu}>

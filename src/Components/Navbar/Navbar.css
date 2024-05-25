@@ -1,9 +1,11 @@
 .nav-wrapper {
   background:rgba(0, 0, 0, 0.1) ;
   padding: 0.5rem 0;
-  position:sticky ;
+  position:fixed ;
   top: 0;
   z-index: 40;
+  left: 0;
+  right: 0;
   border-bottom: 0.5px solid  rgb(80, 77, 77);
   backdrop-filter: blur(50px);
 }

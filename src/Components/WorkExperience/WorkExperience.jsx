@@ -3,7 +3,7 @@ import { WORK_EXPERIENCE } from "../../utils/workdata";
 import './WorkExperience.css';
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
 import Slider from "react-slick";
-
+import { Element } from "react-scroll";
 
 const WorkExperience = () => {
 const sliderRef = useRef(false);
@@ -34,6 +34,7 @@ const slideLeft = () => {
 };
 
   return (
+    <Element name="work">
    <section className="experience-container">
   <h4>Work Experience </h4>
   <Slider ref={sliderRef} {...settings}>
@@ -52,6 +53,7 @@ const slideLeft = () => {
 
   </div>
    </section>
+   </Element>
   )
 }
 

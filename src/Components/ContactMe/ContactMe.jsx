@@ -2,9 +2,11 @@ import React from 'react';
 import './ContactMe.css';
 import ContactMeCard from './ContactMeCard/ContactMeCard';
 import ContactForm from './ContactForm/ContactForm';
+import { Element } from 'react-scroll';
 
 const ContactMe = () => {
   return (
+    <Element name="contact">
 <section className='contact-container'>
 <h5>Contact Me </h5>
 <div className='contact-content'>
@@ -28,6 +30,7 @@ const ContactMe = () => {
 </div>
 
 </section>
+</Element>
   )
 }
 
