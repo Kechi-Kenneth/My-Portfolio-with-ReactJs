@@ -48,7 +48,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
              </Link>
             </li>
           </ul>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="contact" smooth={true} duration={500}>
           <button className="contact-me contact-again" onClick={() => {}}>
             Hire Me
           </button>

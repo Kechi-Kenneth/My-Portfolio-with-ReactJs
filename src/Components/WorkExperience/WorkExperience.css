@@ -34,7 +34,7 @@ cursor: pointer;
   .arrow-left,
 .arrow-right {
   padding: 0.6rem;
-  background: black;
+  background: transparent;
 }
 
 

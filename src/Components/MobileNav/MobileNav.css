@@ -88,4 +88,12 @@ border-bottom-right-radius: 1rem;
    outline: 1.5px solid rgb(173, 173, 191);
    box-shadow: 3px inset;
  }
+
+
+ @media (max-width:600px) {
+      .mobile-menu {
+         margin-top: 4.8rem;
+
+      }
+ }
  
