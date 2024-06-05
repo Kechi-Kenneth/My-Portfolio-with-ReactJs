@@ -1,0 +1,71 @@
+.education-card {
+  border-radius: 1rem;
+  border-bottom: 0.5px solid rgb(74, 72, 72);
+
+  padding: 2.0rem;
+  text-align: center;
+  background: "";
+  backdrop-filter:blur(1rem);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  
+
+}
+
+
+.education-card:hover,
+.education-card.active {
+  background: linear-gradient(180deg,rgb(74, 70, 70) 0%, rgb(0, 0, 0) 100%);
+}
+
+
+.education-card span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* .education-icon {
+  width: 4rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  position: absolute;
+
+} */
+
+
+h5 {
+
+  border-bottom: 5px solid rgb(24, 22, 22);
+  border-bottom-style: dotted;
+  border-bottom-width: 2.5px;
+
+  font-size: 30px;
+  color: rgb(110, 105, 105);
+  padding-bottom: 12px;
+  margin-bottom: 1.5rem;
+  margin-top: 10px;
+  
+}
+
+.education-duration,
+.education-school {
+  line-height: 2.3rem;
+ 
+}
+
+
+.education-duration {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: rgb(117, 113, 113);
+}
+
+
+.education-school {
+  font-size: 20px;
+  font-weight: 700;
+}

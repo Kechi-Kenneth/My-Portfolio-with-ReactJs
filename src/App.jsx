@@ -6,7 +6,8 @@ import Skills from "./Components/Skills/Skills";
 import WorkExperience from "./Components/WorkExperience/WorkExperience";
 import ContactMe from "./Components/ContactMe/ContactMe";
 import Footer from "./Components/Footer/Footer";
-// import Education from "./Components/Education/Education";
+import Education from "./Components/Education/Education";
+import Project from "./Components/Projects/Project";
 
 const App = () => {
   return (
@@ -15,8 +16,9 @@ const App = () => {
       <div className="container">
         <Hero />
         <Skills />
-        {/* <Education /> */}
+        <Education />
         <WorkExperience />
+        {/* <Project /> */}
         <ContactMe />
       </div>
       <Footer />

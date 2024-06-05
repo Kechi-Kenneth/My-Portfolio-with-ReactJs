@@ -68,7 +68,7 @@ margin: 0 1.5rem;
 }
 
 .contact-me {
-  font-size: 0.9rem;
+  font-size: 14px;
   font-weight: 400;
   display: flex;
   justify-content: center;
@@ -86,6 +86,7 @@ margin: 0 1.5rem;
   color: gray;
   outline: 1.5px solid rgb(173, 173, 191);
   box-shadow: 3px inset;
+  font-size: 12px;
 }
 
 

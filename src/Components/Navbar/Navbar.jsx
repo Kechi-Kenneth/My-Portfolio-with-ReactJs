@@ -29,7 +29,9 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+            <Link to="education" smooth={true} duration={500}>
               <a className="menu-item">Education</a>
+              </Link>
             </li>
             <li>
             <Link to="work" smooth={true} duration={500}>
@@ -44,7 +46,7 @@ const Navbar = () => {
             </li>
             <Link to="contact" smooth={true} duration={500}>
             <button className="contact-me" onClick={() => {}}>
-              Hire Me
+             Download Resume
             </button>
             </Link>
           </ul>
