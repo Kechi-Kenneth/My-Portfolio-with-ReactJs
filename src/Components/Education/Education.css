@@ -2,9 +2,21 @@ h3 {
   margin-bottom: 2rem;
   font-size: 2rem;
   font-weight: 400;
+
 }
 
 
 .education-container {
   margin-bottom: 100px;
+
 }
+
+
+.education-container {
+  display: flex;
+  flex-direction: row;
+   grid-gap:1rem;
+   margin-left: 1rem;
+ 
+}
+

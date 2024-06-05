@@ -1,22 +1,21 @@
 .education-card {
+ 
   border-radius: 1rem;
   border-bottom: 0.5px solid rgb(74, 72, 72);
-
   padding: 2.0rem;
   text-align: center;
-  background: "";
   backdrop-filter:blur(1rem);
   position: relative;
   cursor: pointer;
   transition: all 0.2s ease-in;
-  
-
+  width: 300px;
+  background: linear-gradient(180deg,rgb(41, 40, 40) 0%, rgb(0, 0, 0) 100%);
 }
 
 
 .education-card:hover,
 .education-card.active {
-  background: linear-gradient(180deg,rgb(74, 70, 70) 0%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(180deg,rgb(41, 40, 40) 0%, rgb(0, 0, 0) 100%);
 }
 
 
@@ -39,7 +38,7 @@
 
 h5 {
 
-  border-bottom: 5px solid rgb(24, 22, 22);
+  border-bottom: 5px solid rgb(54, 51, 51);
   border-bottom-style: dotted;
   border-bottom-width: 2.5px;
 

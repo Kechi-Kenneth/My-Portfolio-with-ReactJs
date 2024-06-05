@@ -48,7 +48,7 @@
 
 export const EDUCATION = [
   {
-    title:"Senior School Certificate SSCE",
+    title:"Senior School Certificate (SSCE)",
     icon: "./public/WAEC-LOGO.jpg",
     date: "September 2008 - september 2014",
     School: "Victory International Academy,Abuja."
@@ -58,7 +58,7 @@ export const EDUCATION = [
     title:"Bachelor of Science Microbiology",
     icon: "./public/icons8-graduation-48.png",
     date: "September 2016 - september 2021",
-    School: "UNiversity of Calabar ,Calabar."
+    School: "University of Calabar,Calabar."
   },
 
   {

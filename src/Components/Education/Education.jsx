@@ -8,8 +8,9 @@ const Education = () => {
   return (
    <Element name="education">
    <section>
-<div className="education-container">
    <h3>Education</h3>
+<div className="education-container">
+ 
    
    {EDUCATION.map((item) => (
   <EducationCard  iconUrl={item.icon}
