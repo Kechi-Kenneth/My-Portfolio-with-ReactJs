@@ -2,7 +2,7 @@ export const EDUCATION = [
   {
     title: "Senior School Certificate",
     icon: "./public/Nysc Logo Vector.png",
-    Details: [
+    detail: [
       {School: "Victory International Academy,Abuja."},
       {date: "September 2009 - september 2015"},
   
@@ -13,7 +13,7 @@ export const EDUCATION = [
   {
     title: "Bachelor Of Science",
     icon: "./public/icons8-graduation-48.png",
-    Details: [
+    detail: [
       {School: "University Of Calabar,Calabar."},
       {Course: "Microbiology."},
       {date: "September 2016 - september 2020"},
@@ -26,7 +26,7 @@ export const EDUCATION = [
     title: "Diploma ",
     icon: "./public/icons8-diploma-94.png",
    
-    Details: [
+    detail: [
       {School: "Alt School Africa."},
       {Course: "Software Engineering(FrontEnd)."},
       {date: "July 2023 - July 2024"},
@@ -38,8 +38,7 @@ export const EDUCATION = [
   {
     title: "National Youth Service Corps",
     icon: "./public/Nysc Logo Vector.png",
-    
-    Details: [
+    detail: [
       {School: "NYSC"},
       {date: "June 2023 - June 2024"},
     ],
