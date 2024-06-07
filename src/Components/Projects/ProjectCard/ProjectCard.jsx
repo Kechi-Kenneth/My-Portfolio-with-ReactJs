@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
+import './ProjectCard.css';
 
-const ProjectCard = () => {
+const ProjectCard = ({ title, iconUrl, details}) => {
   return (
-   <section>
-    
-   </section>
+    <div className="project-card">
+      <h5>{details.title}</h5>
+
+      <div className="project-icon">
+        <img style={{height: 70}}  src={iconUrl} alt={title} />
+      </div>
+      <div className='project-school'>{details.School}</div>
+     <div className='project-duration'>{details.date}</div>
+    </div>
   )
 }
 
-export default ProjectCard
+export default ProjectCard;

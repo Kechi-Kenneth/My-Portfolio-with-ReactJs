@@ -7,7 +7,7 @@ const EducationCard = ({ title, iconUrl, details}) => {
       <h5>{details.title}</h5>
 
       <div className="education-icon">
-        <img style={{height: 50}}  src={iconUrl} alt={title} />
+        <img style={{height: 70}}  src={iconUrl} alt={title} />
       </div>
       <div className='education-school'>{details.School}</div>
      <div className='education-duration'>{details.date}</div>

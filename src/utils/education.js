@@ -69,7 +69,7 @@ export const EDUCATION = [
   },
 
   {
-    title:"Certificate of Service ",
+    title:"NYSC Certificate of Service ",
     icon: "./public/Nysc Logo Vector.png",
     date: "July 2023 - june 2024",
     School: "National Youth Service Corps,Abuja."
