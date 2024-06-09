@@ -19,8 +19,8 @@ const Project = () => {
 ))} 
       </div>
       <div className="project-content">
-        fetch Github repositories 
-        <button>Click Here </button>
+       <p>My Github repositories </p>
+        <button className='repositories-button'>Click Here </button>
       </div>
     </section>
   )

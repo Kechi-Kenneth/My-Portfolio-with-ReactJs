@@ -1,0 +1,24 @@
+.project-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  line-height: 3.5rem;
+}
+
+.repositories-button {
+  margin-top: 1rem;
+  background: linear-gradient(90deg, rgb(9, 9, 9) 50%, rgb(71, 71, 68) 50%);
+  color: white;
+border-radius: 0.5rem;
+border: 1px solid rgb(24, 24, 21);
+font-weight: 500;
+height: 3rem;
+width: 9rem;
+}
+
+
+
+.repositories-button:hover {
+  font-style: italic;
+}
