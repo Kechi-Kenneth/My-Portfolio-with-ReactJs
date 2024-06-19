@@ -1,30 +1,41 @@
 export const PROJECTS = [
   {
     title:"AfrOmood Music Player ",
-    role:"what i did ",
+    description: "The app was created to relich the quench of all afro beats songs which are place in the same platform",
+    role:"Role: what i did ",
     icon: "./public/",
+    Technology: {
+      name: "React,Css,Html",
+      icon: "./public/"
+    },
     date: "March 2024",
-    description: "what the project is about",
     School: " "
   },
 
   {
     title:"MonieView Wallet Manager ",
-    role:"what i did ",
     description: "what the project is about",
+    role:"Role: what i did ",
     icon: "./public/",
+    Technology:{
+      name: "React,Css,Html",
+      icon: "./public/"
+    }   
+    ,
     date: "june 2024",
     School: "UNiversity of Calabar ,Calabar."
   },
 
   {
     title:"Kayboxx Game Store ",
-    role:"what i did ",
+    role:"Role: what i did ",
     description: "what the project is about",
     icon: "./public",
-    Technology:[
-      
-    ],
+    Technology:{
+      name: "React,Css,Html",
+      icon: "./public/"
+    }   
+    ,
     date: "November 2023",
     School: "."
   },

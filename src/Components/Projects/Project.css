@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   flex-direction:column;
-  line-height: 3.5rem;
+  line-height: 2rem;
+
 }
 
 .repositories-button {
@@ -21,4 +22,16 @@ width: 9rem;
 
 .repositories-button:hover {
   font-style: italic;
+}
+
+
+.project-container {
+  flex-direction: column;
+  display: flex;
+
+}
+
+
+h2 {
+  padding-bottom: 2rem;
 }

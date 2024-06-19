@@ -10,14 +10,16 @@ const Project = () => {
       <h2>
         PROJECTS
       </h2>
-      <div className='project-container'>
+      <div className='project-container'>  
            
    {PROJECTS.map((item) => (
   <ProjectCard  iconUrl={item.icon}
    key={item.title}
-    details={item} />
+    details={item} /> 
+    
 ))} 
       </div>
+
       <div className="project-content">
        <p>My Github repositories </p>
         <button className='repositories-button'>Click Here </button>
