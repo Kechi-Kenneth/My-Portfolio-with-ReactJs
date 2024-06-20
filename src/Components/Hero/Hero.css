@@ -83,6 +83,32 @@ filter: blur(225px);
 
 }
 
+.contact-me {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: linear-gradient(rgb(27, 26, 26), rgb(106, 101, 101) 100%);
+  padding: 0.5rem 2rem;
+  border: none;
+  outline: 1.5px solid transparent;
+  cursor: pointer;
+  border-radius: 0.2rem;
+  transition: all 0.3 ease;
+  margin-top: 1rem;
+}
+
+
+@media (max-width:600px) {
+  .contact-me {
+height: 2.7rem;
+width: 4rem;
+font-size: 0.7rem;
+  }
+
+}
+
 .tech-icon img {
   width: 3rem;
   height: auto;

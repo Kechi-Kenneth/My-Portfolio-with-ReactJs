@@ -15,15 +15,53 @@ h5:hover {
   font-style: italic;
 }
 
+.container {
+  margin-top: 7rem;
+}
+
 h2 {
   padding-bottom: 2rem;
 }
 
 .project-container {
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
 grid-gap: 3.5rem;
-margin-left: 9rem;
+margin-left: 5rem;
+}
+
+@media (max-width:620px) {
+  .project-container {
+    flex-direction: column; 
+    margin-left: 1rem;
+  }
+
+
+  .project-content {
+    margin-top: 7rem;
+  }
+
+
+  .second-project {
+    margin-top: 3rem;
+  }
+}
+
+
+@media (max-width:1000px) {
+  .project-container {
+    flex-direction: column; 
+    margin-left: 1rem;
+  }
+
+}
+
+@media (max-width:1250px) {
+  .project-container {
+    
+    margin-left: -2rem;
+  }
+
 }
 
 .project-description {
@@ -59,6 +97,10 @@ margin-left: 9rem;
 img {
   height: 2rem;
   width: 2rem;
+}
+
+img:hover {
+  transform: translateY(-0.3rem);
 }
 
 .project-symbol {
