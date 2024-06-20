@@ -1,37 +1,156 @@
+
+
+
 .project-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column;
+  flex-direction: column;
   line-height: 2rem;
-
+  margin-top: 2rem;
 }
 
-.repositories-button {
-  margin-top: 1rem;
-  background: linear-gradient(90deg, rgb(9, 9, 9) 50%, rgb(71, 71, 68) 50%);
-  color: white;
-border-radius: 0.5rem;
-border: 1px solid rgb(24, 24, 21);
-font-weight: 500;
-height: 3rem;
-width: 9rem;
+h5:hover {
+  text-decoration: underline;
+  font-style: italic;
 }
 
+h2 {
+  padding-bottom: 2rem;
+}
 
+.project-container {
+  flex-direction: column;
+  display: flex;
+grid-gap: 3.5rem;
+margin-left: 6rem;
+}
+
+.project-description {
+  margin-top: 1.3rem;
+}
+
+.btn {
+  background-color: #4f4e4e;
+  width: 4rem;
+  height: 2.5rem;
+  padding: 0;
+  border-radius: 0.5rem;
+  margin-bottom: 1px;
+}
+
+.project-technologies {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  grid-gap: 1rem;
+}
+
+.project-date {
+  margin-top: -1rem;
+  font-size: 0.5rem;
+  color: #bfbaba;
+}
 
 .repositories-button:hover {
   font-style: italic;
 }
 
+img {
+  height: 2rem;
+  width: 2rem;
+}
 
-.project-container {
-  flex-direction: column;
+.project-symbol {
+  height: 1.2rem;
+  width: 1.2rem;
+
+  border-radius: 50%;
+}
+
+.project-symbol:hover {
+  text-decoration: underline;
+}
+
+h5 {
+  border-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: rgb(183, 180, 180);
+  font-size: 1.1rem;
+}
+.repositories-button {
+  margin-top: 1rem;
+  background: linear-gradient(90deg, rgb(9, 9, 9) 50%, rgb(71, 71, 68) 50%);
+  color: white;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(24, 24, 21);
+  font-weight: 500;
+  height: 3rem;
+  width: 9rem;
+}
+
+.image {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  width: 15rem;
+
 
 }
 
+.project-details {
+  width: 18rem;
+  height: 15rem;
+ 
+}
 
-h2 {
-  padding-bottom: 2rem;
+.project-details:hover {
+  cursor: pointer;
+}
+
+
+.image:hover {
+  cursor: pointer;
+ 
+}
+
+
+.first-project {
+  display: flex;
+  flex-direction: row;
+  border-radius: 1rem;
+}
+
+.second-project {
+    display: flex;
+  flex-direction: row;
+}
+
+.third-project {
+  display: flex;
+flex-direction: row;
+}
+
+.fourth-project {
+  display: flex;
+flex-direction: row;
+}
+
+
+.first-project-icon {
+  width: 10rem;
+  height: 10rem;
+}
+
+.first-project-icon:hover {
+  height: 12rem;
+ width: 12rem;
+}
+
+.first-project-icon {
+  margin-top: -7rem;
 }
