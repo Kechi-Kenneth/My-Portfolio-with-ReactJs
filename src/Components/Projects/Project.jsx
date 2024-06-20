@@ -49,11 +49,11 @@ const Project = () => {
 
         <div className="second-project">
           <div className="image">
-            <img src="" />
+            <img className="second-project-icon" src="/icons8-card-wallet-94.png" />
           </div>
           <div className="project-details">
             <div className="title">
-              {" "}
+             
               <h5>
                 MonieView Wallet Manager{" "}
                 <span>
@@ -86,13 +86,13 @@ const Project = () => {
 
         <div className="third-project">
           <div className="image">
-            <img src="" />
+            <img className="third-project-icon" src="public\icons8-game-controller-48.png" />
           </div>
           <div className="project-details">
             <div className="title">
-              {" "}
+              
               <h5>
-                Kayboxx Game Store{" "}
+                Kayboxx Game Store
                 <span>
                   <img
                     className="project-symbol"
