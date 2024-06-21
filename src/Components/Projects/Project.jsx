@@ -12,7 +12,7 @@ const Project = () => {
           <div className="image">
             <img
               className="first-project-icon"
-              src="public/icons8-music-64.png"
+              src="/icons8-music-64.png"
             />
           </div>
           <div className="project-details">
@@ -23,7 +23,7 @@ const Project = () => {
                 <span>
                   <img
                     className="project-symbol"
-                    src="./icons8-forward-arrow-50.png"
+                    src="/icons8-forward-arrow-50.png"
                   />
                 </span>
               </h5>
@@ -39,10 +39,10 @@ const Project = () => {
                 <img src="/icons8-html5-64.png" alt="" />
               </button>
               <button className="btn">
-                <img src="public/icons8-css3-48.png" alt="" />{" "}
+                <img src="/icons8-css3-48.png" alt="" />{" "}
               </button>
               <button className="btn">
-                <img src="public/icons8-javascript-48.png" alt="" />{" "}
+                <img src="/icons8-javascript-48.png" alt="" />{" "}
               </button>
             </div>
           </div>
@@ -76,10 +76,10 @@ const Project = () => {
                 <img src="/icons8-html5-64.png" alt="" />
               </button>
               <button className="btn">
-                <img src="public/icons8-css3-48.png" alt="" />{" "}
+                <img src="/icons8-css3-48.png" alt="" />{" "}
               </button>
               <button className="btn">
-                <img src="public/icons8-react-js-40.png" alt="" />{" "}
+                <img src="/icons8-react-js-40.png" alt="" />{" "}
               </button>
             </div>
           </div>

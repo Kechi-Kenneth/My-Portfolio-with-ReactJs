@@ -12,10 +12,6 @@ const Hero = () => {
           Passionate Frontend Developer | | Bringing Ideas into life | |
           Introducing Stunning Web Solutions
         </p>
-
-        <button className="contact-me" onClick={() => {}}>
-             Download Resume
-            </button>
       </div>
 
       <div className="hero-img">
