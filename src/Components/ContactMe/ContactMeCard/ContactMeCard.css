@@ -8,6 +8,7 @@
   border: 1px solid rgb(141, 138, 134);
   padding: 1.5rem;
   margin-bottom: 2rem;
+  color: aliceblue;
 }
 
 .contact-details-card:hover {
@@ -39,4 +40,9 @@
 .contact-details-card p {
   font-size: 0.8rem;
   font-weight: 400;
+  color: aliceblue;
+}
+
+.contact-details-card p:hover {
+  color: gray;
 }

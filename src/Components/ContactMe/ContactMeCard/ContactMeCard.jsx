@@ -1,14 +1,23 @@
 import React from 'react';
 import './ContactMeCard.css';
 
-const ContactMeCard = ({iconUrl, text}) => {
+const ContactMeCard = ({iconUrl, github, email}) => {
   return (
-    <div className='contact-details-card'>
+    
+    <div className='contact-details-card' >
       <div className='icon'>
-        <img src={iconUrl} alt={text} />
+        <img src={iconUrl} alt={""} />
       </div>
-      <p>{text}</p>
+
+      <a href='https://github.com/Kechi-Kenneth' >
+      <p>{github}</p>
+      </a>
+      
+      <a href='' >
+      <p>{email}</p>
+      </a>
     </div>
+   
   )
 }
 
