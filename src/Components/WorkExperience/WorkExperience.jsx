@@ -45,10 +45,10 @@ const slideLeft = () => {
 
   <div className="experience-content">
     <div className="arrow-right" onClick={slideRight}>
-      <span class="material-symbols-outlined"><img src="./public/icons8-right-button-30.png"/></span>
+      <span class="material-symbols-outlined"><img src="/icons8-right-button-30.png"/></span>
     </div>
     <div className="arrow-left" onClick={slideLeft}>
-    <span class="material-symbols-outlined"><img src="./public/icons8-left-30.png"/></span>
+    <span class="material-symbols-outlined"><img src="/icons8-left-30.png"/></span>
     </div>
 
   </div>

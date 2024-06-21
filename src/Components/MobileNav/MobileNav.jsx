@@ -12,7 +12,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         <div className="mobile-menu-container">
           <div className="close-tab">
              <button className="close-tab-button">
-              <img className="close-tab-icon" src="./public/icons8-close-50.png"/>
+              <img className="close-tab-icon" src="/icons8-close-50.png"/>
              </button>
           </div>
 

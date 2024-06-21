@@ -87,7 +87,7 @@ const Project = () => {
       </div>
 
       <div className="project-content">
-        <p>My Github repositories </p>
+        <p>Download My Resume</p>
         <button className="repositories-button">Click Here </button>
       </div>
     </section>

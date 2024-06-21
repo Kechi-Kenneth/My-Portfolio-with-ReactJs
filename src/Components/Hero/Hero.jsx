@@ -17,23 +17,23 @@ const Hero = () => {
       <div className="hero-img">
         <div>
           <div className="tech-icon">
-            <img src="public\icons8-react-js-40.png" alt="" />
+            <img src="/icons8-react-js-40.png" alt="" />
           </div>
 
-          <img className="my-image" src="public\kaypluz img.jpg" alt="" />
+          <img className="my-image" src="/kaypluz img.jpg" alt="" />
         </div>
 <div> 
 <div className="tech-icon">
-          <img src="public\icons8-html5-64.png" />
+          <img src="/icons8-html5-64.png" />
         </div>
 <div className="tech-icon">
-          <img src="public\icons8-css3-48.png" />
+          <img src="/icons8-css3-48.png" />
         </div>
         <div className="tech-icon">
-          <img src="public\icons8-javascript-48.png" />
+          <img src="/icons8-javascript-48.png" />
         </div>
         <div className="tech-icon">
-          <img src="public\icons8-typescript-32.png" />
+          <img src="/icons8-typescript-32.png" />
         </div>
 
 </div>
