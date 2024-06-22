@@ -58,7 +58,7 @@ const Navbar = () => {
             >
               <img
                 className="menu-icon"
-                src="./public/menu-symbol-of-three-parallel-lines-svgrepo-com.png"
+                src="/menu-symbol-of-three-parallel-lines-svgrepo-com.png"
                 alt=""
               />
               {openMenu}
