@@ -7,8 +7,8 @@ const Hero = () => {
     <Element name="home">
     <section className="hero-container">
       <div className="hero-content">
-        <h2>Building Digital Interfaces and Experiences that are seamless</h2>
-        <p>
+        <h2 className="fade-in-out">Building Digital Interfaces and Experiences that are seamless</h2>
+        <p className="slide-in-left">
           Passionate Frontend Developer | | Bringing Ideas into life | |
           Introducing Stunning Web Solutions
         </p>

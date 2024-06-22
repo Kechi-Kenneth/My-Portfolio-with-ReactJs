@@ -222,3 +222,33 @@ font-size: 0.7rem;
     width: 2rem;
   }
 }
+
+
+.fade-in-out {
+  animation: fadeInOut 6s infinite;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}
+
+
+.slide-in-left {
+  animation: slideInLeft 3s ease-in-out;
+}
+
+@keyframes slideInLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}

@@ -13,7 +13,7 @@ const ContactMeCard = ({iconUrl, github, email}) => {
       <p>{github}</p>
       </a>
       
-      <a href='' >
+      <a href='mailto:kaypluzkechi@gmail.com'>
       <p>{email}</p>
       </a>
     </div>
