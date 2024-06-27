@@ -15,7 +15,7 @@
 
 .education-card:hover,
 .education-card.active {
-  background: linear-gradient(180deg,rgb(41, 40, 40) 0%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(180deg,rgb(83, 81, 81) 0%, rgb(0, 0, 0) 100%);
 }
 
 
